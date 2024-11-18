@@ -5,7 +5,7 @@ public class CalcPi {
 		double calcPI = 1;
 		int sign = -1;
 		int currentNum = 3;
-		for (int i = 0; i < times; i++) {
+		for (int i = 0; i < times-1; i++) {
 			calcPI = calcPI + (sign * (1.0 / currentNum));
 			currentNum = currentNum+2;
 			sign *= -1;
