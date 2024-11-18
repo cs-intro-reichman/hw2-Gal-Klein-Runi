@@ -2,8 +2,8 @@
 public class Collatz {
 	public static void main(String args[]) {
 	    // Replace this comment with your code
-		String mode = args[0];
-		int N = Integer.parseInt(args[1]);
+		String mode = args[1];
+		int N = Integer.parseInt(args[0]);
 		String summeryLine = "Every one of the first "+N+" hailstone sequences reached 1.";
 		if (mode.equals("v")) {
 		for (int i=1; i<N+1; i++) {

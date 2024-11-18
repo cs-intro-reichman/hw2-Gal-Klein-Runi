@@ -3,7 +3,6 @@ public class Cheers {
         public static void main(String[] args) {
 	    String word = args[0].toUpperCase();
             int times = Integer.parseInt(args[1]);
-            System.out.println("word.indexOf('R'): "+word.indexOf('R'));
             String anLettes = "AEFHILMNORSX";
             for (int i=0; i<word.length(); i++){
                 char letter = word.charAt(i);
